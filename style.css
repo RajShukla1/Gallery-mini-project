@@ -1,0 +1,138 @@
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0;
+    background: #eee;
+    height: auto;
+}
+
+
+main{
+    display: block;
+    max-width: 900px;
+    margin: auto;
+    box-shadow: 29px 0px 40px rgb(0 0 0 / 10%), -30px 0px 40px rgb(0 0 0 / 10%);
+}
+@media (min-width : 500px){
+    #landing{
+    display : flex;
+    height: 100%;
+    justify-content: center;
+}
+}
+#landing{
+    background: #fff;
+    height: 100%;
+    justify-content: center;
+}
+
+@media (min-width: 500px){
+    #landing-text {
+    height: 100vh;
+}
+}
+#landing-text{
+    display: flex;
+    flex: 0 1 40vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+h1 {
+    font-weight: 400;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin: 0;
+}
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+h2 {
+    font-weight: 400;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    margin: 0;
+}
+@media (min-width: 700px){
+.btn {
+    padding: 1rem 3rem;
+}
+}
+.btn {
+    padding: 0.5rem 2rem;
+    border: 1px #ccc solid;
+    display: inline-block;
+    margin: 2rem 0 0;
+    border-radius: 50px;
+    text-decoration: none;
+    color: #333;
+    transition: background 500ms ease;
+}
+@media (max-width: 500px){
+#landing-image {
+    height: 50vh;
+    width: 50vw;
+}
+}
+#landing-image{
+    background-image:url( "./3.jpg");
+    background-position-x: center;
+    background-position-y: center;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial; ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    flex: 0 1 60vw;
+    margin: 0;
+
+}
+header {
+    padding: 1.5rem;
+    text-align: center;
+    background: #333;
+    color: #fff;
+}
+img {
+    display:flex;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.caption {
+    padding: 0.8rem;
+    text-align: center;
+}
+footer {
+    text-align: center;
+    padding: 2rem 1rem;
+    margin: auto;
+    color: wheat;
+    background-color: #333;
+}
+footer h3 {
+    font-size: 3rem;
+    margin-bottom: 0;
+}
+.icons{
+    text-decoration: none;
+    font-size: larger;
+    color : rgb(184, 109, 255);
+}
+.link{
+    background-color: rgb(45, 207, 45);
+}
+h5{
+    color: rgb(145, 17, 17);
+}
